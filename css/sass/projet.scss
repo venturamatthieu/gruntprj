@@ -1,0 +1,27 @@
+@import "reset.scss";
+
+body {
+    margin: 0;
+    font-size:100%;
+    line-height:1.125em;
+    background-color: #FFF;
+}
+
+#loader {
+	display: none;
+	background-color: rgba(0,0,0,0.5);
+	height:100%;
+	left:0;
+	position: absolute;
+	top:0;
+	width:100%;
+        border:auto;
+}
+
+.has-js #content{
+	display: none;
+}
+
+.has-js #loader{
+	display: block;
+}
